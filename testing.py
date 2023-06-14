@@ -7,10 +7,10 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 
-# Get data
-train = datasets.MNIST(root="data", download=True, train=True, transform=ToTensor())
-dataset = DataLoader(train, 32)
-#1,1,28 - class 0-9
+# # Get data
+# train = datasets.MNIST(root="data", download=True, train=True, transform=ToTensor())
+# dataset = DataLoader(train, 32)
+# #1,1,28 - class 0-9
 
 # Image Classifier nn
 class ImageClassifier(nn.Module):
