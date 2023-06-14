@@ -4,7 +4,7 @@
 
 NLP以前一直没有好办法, 用过循环神经网络(RNN), 长短期记忆(LSTM), 最后出现了Transformer的办法, 才算成功了. 
 
-所以比较好的顺序是:    
+比较好的顺序是:    
 1. 先理解NLP的基本方法, RNN/LSTM简单了解即可.  
 2. 然后理解Transformer 
 3. 重点理解生成式模型(Generative mode)
